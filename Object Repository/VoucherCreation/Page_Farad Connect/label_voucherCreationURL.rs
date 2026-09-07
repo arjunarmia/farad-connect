@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_voucherCreationURL</name>
+   <tag></tag>
+   <elementGuidId>9b22405d-7a4c-4b8d-af3f-b30ccbb3380e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.voucher-field__input-wrap</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'voucher-link']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fb722b69-50b1-4f98-877c-566e97fbb161</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>voucher-field__input-wrap voucher-field__input-wrap--icon</value>
+      <webElementGuid>69fa58da-b177-4d5d-81e5-c7de07ea014c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-40f68422fc7f9b483645d066463ec4f4</value>
+      <webElementGuid>5fe48e76-e66d-4459-84c5-41b3b191ca3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' voucher-field__input-wrap ')]</value>
+      <webElementGuid>425ca659-9920-41a1-b474-2171da1bc2c5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' voucher-field__input-wrap ')]</value>
+      <webElementGuid>e0cb23c9-9b4c-493f-9396-ec693da85904</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

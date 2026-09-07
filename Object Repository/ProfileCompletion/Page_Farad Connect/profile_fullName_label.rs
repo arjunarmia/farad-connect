@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>profile_fullName_label</name>
+   <tag></tag>
+   <elementGuidId>f7fc1021-d0de-4b68-acab-f1e4b75d16ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-hero__name ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.profile-hero__name</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>dbafed3c-e4ac-4fae-bf00-9ece1b37c1aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>profile-hero__name</value>
+      <webElementGuid>84caf336-5f0f-4604-abc4-d66083bed80f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Arjun R Nath</value>
+      <webElementGuid>809374bd-8a30-45f4-9b53-af339a81f644</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9bef6830e2d2f2d1ad2961d53ea2d015</value>
+      <webElementGuid>d9e9f8df-12e1-4e64-8634-94f138f32262</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-hero__name ')]</value>
+      <webElementGuid>cbc88def-f51b-4e98-975c-47b13952f8e9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-hero__name ')]</value>
+      <webElementGuid>f97a6457-6a21-43a6-9c39-e3744ce38dd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Arjun R Nath' or . = 'Arjun R Nath')]</value>
+      <webElementGuid>0b3e4538-a480-4dcb-b4ae-e9f63f28d9a0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

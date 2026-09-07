@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>strong_arjun.newyopmail.com</name>
+   <tag></tag>
+   <elementGuidId>7e89ad07-b3f9-4636-b144-ecccb3350f7f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-info-card__value--truncate ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.profile-info-card__value--truncate</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>9d04d3b5-90ce-40a5-a94b-3b571b55fd30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>profile-info-card__value profile-info-card__value--truncate</value>
+      <webElementGuid>648e7d04-caa8-4eed-bb77-730584c8d332</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>arjun.new@yopmail.com</value>
+      <webElementGuid>d09f47b9-8ca3-402e-b64a-a773da65eeb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-3e21bf23437c1d3967f8f0d3dd0c6e44</value>
+      <webElementGuid>9863c7f3-8a09-47ce-8a3d-12b0c3ec3642</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-info-card__value--truncate ')]</value>
+      <webElementGuid>9c9d346f-f47b-4f59-80d0-62961cd7a1aa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-info-card__value--truncate ')]</value>
+      <webElementGuid>03625403-33fb-4207-ad2b-ccadb4f7194e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = 'arjun.new@yopmail.com' or . = 'arjun.new@yopmail.com')]</value>
+      <webElementGuid>77163d5b-7f96-4f79-8869-6e4ca01a11a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

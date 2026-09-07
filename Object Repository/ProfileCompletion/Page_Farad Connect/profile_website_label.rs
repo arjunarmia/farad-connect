@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>profile_website_label</name>
+   <tag></tag>
+   <elementGuidId>fc1664f5-43f7-48cd-8836-6724d203e4d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.profile-info-card:nth-child(3) .profile-info-card__value</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-info-card ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-info-card__value ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>4cbd3229-9c63-4049-807b-fbdd3854eceb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>profile-info-card__value</value>
+      <webElementGuid>04f6b664-02b7-4186-b75b-5bc0b8790209</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>www.google.com</value>
+      <webElementGuid>fb9f3207-a3f4-4a96-b612-9c9564b652f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-4c1fa290e97485b6799cd58ad3cad016</value>
+      <webElementGuid>e01ae3c4-18ce-413c-8c5a-108751d44b5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-info-card ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-info-card__value ')]</value>
+      <webElementGuid>4f0369d0-14b0-41d5-9b04-32bc70a0b517</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-info-card ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-info-card__value ')]</value>
+      <webElementGuid>1e59bdf7-0454-41a7-8661-bbd5d23c43c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = 'www.google.com' or . = 'www.google.com')]</value>
+      <webElementGuid>742472bf-16bf-46fa-9fe6-6c78034d0221</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

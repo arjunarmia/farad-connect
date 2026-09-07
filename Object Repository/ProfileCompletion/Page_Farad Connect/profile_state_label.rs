@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>profile_state_label</name>
+   <tag></tag>
+   <elementGuidId>789a9353-61fa-47cf-a63d-d29f3e35365c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-field ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-field__value ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.profile-field:nth-child(3) .profile-field__value</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>dd</value>
+      <webElementGuid>3af82c80-2f82-4137-a413-3e3d08a82557</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>profile-field__value</value>
+      <webElementGuid>396d1a55-7637-4089-852e-44639b321d64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Test</value>
+      <webElementGuid>6515260e-b51f-4109-b7f2-6132ee006b53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-11b73a2de3d3be409554320d51cf420a</value>
+      <webElementGuid>1a3f30be-76e1-4d21-84ef-ca86d751627e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-field ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-field__value ')]</value>
+      <webElementGuid>9fa106e0-d26e-4187-b8ad-122e87f5b9bd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-field ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-field__value ')]</value>
+      <webElementGuid>592c4de5-be7c-4ca0-9953-27145c17b291</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//dd[(text() = 'Test' or . = 'Test')]</value>
+      <webElementGuid>84e2aa91-53d0-4e80-abaf-03dc55a98f2c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_tokenBuyTotal</name>
+   <tag></tag>
+   <elementGuidId>a2371c53-b94f-4b2c-9413-4b3be8abe45d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#tl-buy-total</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'tl-buy-total']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>8aef6fea-f72c-44ca-8a54-3476272ff1e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tl-smodal__total-val</value>
+      <webElementGuid>5cab233f-5838-433d-9402-3df0b6c7a523</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>tl-buy-total</value>
+      <webElementGuid>fe4059dd-c198-427e-842c-c3701b828e98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$6.00</value>
+      <webElementGuid>79160357-52b8-4193-bd62-4c6917d3ff2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-32a009830fa73a5f9f0c668483f9f8fc</value>
+      <webElementGuid>52c8c814-7d62-4e57-8cfa-efba9a4a6446</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'tl-buy-total']</value>
+      <webElementGuid>7607132c-283d-4572-aa7c-df99ff849bd7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'tl-buy-total']</value>
+      <webElementGuid>99332d19-dcdb-4a94-a477-37ba0cea084d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[@id = 'tl-buy-total' and (text() = '$6.00' or . = '$6.00')]</value>
+      <webElementGuid>6f28e3b9-2c9d-4a57-a844-820f7eb2a5ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

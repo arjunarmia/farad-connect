@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_registerSubmitBtn</name>
+   <tag></tag>
+   <elementGuidId>4b914469-45f7-420e-a7b4-621c5fef2817</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#registerSubmitBtn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'registerSubmitBtn']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b2253708-b925-483b-851d-72c23fbd4b29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>payment-form__btn payment-form__btn--primary</value>
+      <webElementGuid>0f405ce3-a0fa-4f42-a78f-e4bfa79ac837</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>46b1e480-bad8-4447-bb5e-d3aa0cdef368</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>registerSubmitBtn</value>
+      <webElementGuid>e3689100-9009-4834-9851-7138c7b40698</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Register and complete payment</value>
+      <webElementGuid>9a443197-82d8-4ac1-af91-1f96dfbe5174</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            Register
+          </value>
+      <webElementGuid>2f6c99f9-f1be-4c7d-9db2-1954a9be4484</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-edd3a79882d3c2175140960799f34f15</value>
+      <webElementGuid>1675c063-c5b4-4c59-8189-c3656654bc84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'registerSubmitBtn']</value>
+      <webElementGuid>25a7d1d8-a862-489a-9e62-8a5b5e868b40</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'registerSubmitBtn']</value>
+      <webElementGuid>36dd23ff-3405-429e-9fab-6ab6ad8705a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and @id = 'registerSubmitBtn' and (text() = '
+            Register
+          ' or . = '
+            Register
+          ')]</value>
+      <webElementGuid>b8333133-1ad5-42d4-9539-c07cfddde1db</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

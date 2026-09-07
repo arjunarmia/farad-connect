@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_tl-confirm-ok</name>
+   <tag></tag>
+   <elementGuidId>11b67934-c8b5-45b9-acac-7d150e6fabb1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#tl-confirm-ok</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'tl-confirm-ok']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>066a6df4-dfa4-4b0c-812c-11fb2f09ef9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b6231d57-00bf-4e28-8855-515da70be8d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tl-btn-buy tl-cmodal__action-btn</value>
+      <webElementGuid>43973f32-6806-47f3-b59d-3f657ec2cae2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>tl-confirm-ok</value>
+      <webElementGuid>02847924-13a6-430e-b96d-9a1ee6e2ee50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Yes, Confirm</value>
+      <webElementGuid>29abdaf6-e00e-4c4f-aebd-94145f67c3f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-e057ce2c872aa86fc353bf41f6340e54</value>
+      <webElementGuid>b5cc7676-8e0c-4ae9-bb89-aeda8f8ae6a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'tl-confirm-ok']</value>
+      <webElementGuid>4c528d8b-f60f-4ac0-9621-7ed2638393c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'tl-confirm-ok']</value>
+      <webElementGuid>d8bb30ff-ab76-41a2-98aa-c771b3343f63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @id = 'tl-confirm-ok' and (text() = 'Yes, Confirm' or . = 'Yes, Confirm')]</value>
+      <webElementGuid>e8a8b01f-c806-42f4-b471-4648737e2469</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

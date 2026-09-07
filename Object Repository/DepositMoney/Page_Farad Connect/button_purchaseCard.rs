@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_purchaseCard</name>
+   <tag></tag>
+   <elementGuidId>835f1be4-2849-43f1-8ca6-6a6aefeb6521</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#purchaseCard</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'purchaseCard']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>edfa6f49-3aa4-497c-b6ba-4fea2e41cac9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>walletn-button</value>
+      <webElementGuid>c33add5a-f21a-429d-bb4c-997b7ae2bf9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>purchaseCard</value>
+      <webElementGuid>aa972619-c668-465f-a87b-f24b77200171</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ae1ddcb0-768d-4d77-a472-2e3b10aafc32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Purchase with card</value>
+      <webElementGuid>b9a76367-408b-4251-a00e-051a8f83366e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>dialog</value>
+      <webElementGuid>d34a5e1b-1dc2-4923-a6c7-24f9005829a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>walletn-pin-modal</value>
+      <webElementGuid>e2c2c5f5-e9a5-4b28-bbc7-fa4c105e5d4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                Purchase with card
+              </value>
+      <webElementGuid>8e78a764-77b4-45c5-af07-8e0fccf3d4ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a60b193ccaf61dc668dba29f909eb143</value>
+      <webElementGuid>1ea8fdd9-1537-493b-8781-5225b3bdeeba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'purchaseCard']</value>
+      <webElementGuid>218b7d71-11ad-4e7f-99d2-351d581b6017</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'purchaseCard']</value>
+      <webElementGuid>7ac25dd1-d1a3-4c3d-a3af-4b4c6671a181</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'purchaseCard' and @type = 'button' and (text() = '
+                Purchase with card
+              ' or . = '
+                Purchase with card
+              ')]</value>
+      <webElementGuid>61017e1f-ed5a-4b56-9a27-aa15a50b08f7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

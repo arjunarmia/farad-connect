@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05 - WithdrawMoney</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9f5c5fcb-05d8-493c-936d-dcd1eb6f1860</testCaseGuid>
+</TestCaseEntity>

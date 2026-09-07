@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>profile_city_label</name>
+   <tag></tag>
+   <elementGuidId>d0189578-1000-4018-b2c7-4b4ba8200aa2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(@aria-labelledby = 'personal-heading') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-personal-card__col--bordered ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-field ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-field__value ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[aria-labelledby=&quot;personal-heading&quot;]:nth-child(3) .profile-personal-card__col--bordered .profile-field:nth-child(1) .profile-field__value</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>dd</value>
+      <webElementGuid>20cb0f73-f164-412e-a751-76802becbe1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>profile-field__value</value>
+      <webElementGuid>4422b323-58e2-465c-9f3c-490d1c0964ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Test</value>
+      <webElementGuid>c8a497f9-9c13-4fdf-9846-6c6b061c89e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-724c7783884301b39062f965648b4936</value>
+      <webElementGuid>31f1d988-a685-4e39-9322-1f589be8d420</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(@aria-labelledby = 'personal-heading') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-personal-card__col--bordered ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-field ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-field__value ')]</value>
+      <webElementGuid>0304f87c-978a-4899-8752-fc1ca835e254</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(@aria-labelledby = 'personal-heading') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-personal-card__col--bordered ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-field ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profile-field__value ')]</value>
+      <webElementGuid>bebfbfd3-45dd-4288-8acd-3a0144507685</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//dd[(text() = 'Test' or . = 'Test')]</value>
+      <webElementGuid>c57c5600-36ee-4ecb-84ac-004c5fdbc54f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

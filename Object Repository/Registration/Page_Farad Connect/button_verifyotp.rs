@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_verifyotp</name>
+   <tag></tag>
+   <elementGuidId>0cc06550-eb69-4872-8c11-3f165445b55e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#verifyotp</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'verifyotp']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>bef0d066-bc73-4d8b-9daf-40c39ce45222</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>otp-card__btn otp-card__btn--active</value>
+      <webElementGuid>a7545ad7-4abf-4f8c-b31c-73a2c977aac1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>verifyotp</value>
+      <webElementGuid>bf17ea04-28d9-4209-857c-7c7659584257</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>acde64a3-2c82-496c-bc76-36404aef60d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Verify and continue</value>
+      <webElementGuid>6663d9d7-e4e3-41d7-91bb-d5706c0af0bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>714a814d-a3c8-4915-929a-e9dddc163aab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Verify &amp; Continue</value>
+      <webElementGuid>4fe4543a-287b-4e03-89bc-a02f7a7dc484</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-49997f034340356ce7351239fe9f91a0</value>
+      <webElementGuid>3a31ecf9-9f86-469a-aafe-f77c154cb3cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'verifyotp']</value>
+      <webElementGuid>6cc95a6a-631f-4070-9a09-3dd630a0e945</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'verifyotp']</value>
+      <webElementGuid>4fca659c-f7dd-4ca5-b7a8-204306cd7163</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'verifyotp' and @type = 'submit' and (text() = 'Verify &amp; Continue' or . = 'Verify &amp; Continue')]</value>
+      <webElementGuid>0c73c5f8-7685-49b7-9e87-c89a35564de8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

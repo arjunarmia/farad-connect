@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>sendMoney_receiverName_dropdown</name>
+   <tag></tag>
+   <elementGuidId>3c922023-1c59-45c3-9d52-bc389db06c95</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id='search-results']//li[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#search-results li</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Thomas Sawyer' or . = 'Thomas Sawyer')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>875fdaf4-6a72-4074-b721-67d72a75bff6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Thomas Sawyer</value>
+      <webElementGuid>bef9694d-4c15-444b-b335-f65a2de52e2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-594710e791e0f156d6659343f8c9402c</value>
+      <webElementGuid>85972a36-9e81-4e4f-b7ad-bfe551b406cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'search-results']//li</value>
+      <webElementGuid>92c77581-675d-4397-88c7-50139e82fb00</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id='search-results']//li[1]</value>
+      <webElementGuid>0ca01601-226c-4da0-933b-b2db032fb581</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

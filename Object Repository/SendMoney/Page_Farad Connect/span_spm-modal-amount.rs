@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_spm-modal-amount</name>
+   <tag></tag>
+   <elementGuidId>b18583f3-0336-462c-b37e-7030fe31b62e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'spm-modal-amount']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#spm-modal-amount</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>94301d1d-e57b-4332-b90a-efe1d29c9f52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>spm-modal__detail-value spm-modal__detail-value--lg</value>
+      <webElementGuid>738a0831-36d8-430e-a6a5-c44df028bb9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>spm-modal-amount</value>
+      <webElementGuid>3b9b104b-0552-45d0-a63a-cd85c6ee27d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$1</value>
+      <webElementGuid>207cf664-af4f-4392-a856-d090605899a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-d11a2a2e1c140a99d4c966fbdb242beb</value>
+      <webElementGuid>24228b10-a774-445c-b298-b588373d6fef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'spm-modal-amount']</value>
+      <webElementGuid>1d7f294b-9214-4f98-824e-7436ee9e93ca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'spm-modal-amount']</value>
+      <webElementGuid>20485542-9b7d-49b6-81ff-4103945f4d73</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

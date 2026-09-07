@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_tokenSellTotal</name>
+   <tag></tag>
+   <elementGuidId>710f2fa9-a8fb-41b9-be49-aa585593f30a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#tl-sell-total</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'tl-sell-total']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>88c8f347-3125-48a4-b438-fa0299e9f057</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tl-smodal__total-val</value>
+      <webElementGuid>d1dc1e5c-d1d3-4ca8-831e-9c1c3c65327a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>tl-sell-total</value>
+      <webElementGuid>712a3b6e-31f9-433d-b7e3-0d6fafae8c39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$4.00</value>
+      <webElementGuid>382e58d6-e7cd-4618-baff-92f5d88bfc27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-5aca1dbfa2b550b1fa568746562405e5</value>
+      <webElementGuid>d50e6088-c4e1-4895-9814-b96092679663</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'tl-sell-total']</value>
+      <webElementGuid>3df1d8af-f2f5-4fc2-b80d-ffb0c781e5d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'tl-sell-total']</value>
+      <webElementGuid>cc016fbf-d478-4531-a403-0777d81d84fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[@id = 'tl-sell-total' and (text() = '$4.00' or . = '$4.00')]</value>
+      <webElementGuid>d57f0792-814a-498f-9868-a4af64010487</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
