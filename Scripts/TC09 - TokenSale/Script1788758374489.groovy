@@ -34,7 +34,7 @@ def tokenSale = [
 LoginKeywords loginKeywords = new LoginKeywords()
 loginKeywords.loginWithCredentials(tokenSale.user1Name, tokenSale.user1Pass)
 
-WebUI.click(findTestObject('TokenSale/Page_Farad Connect/a_FTG Token'))
+WebUI.click(findTestObject('TokenSale/Page_Farad Connect/button_FTG Token'))
 WebUI.click(findTestObject('TokenSale/Page_Farad Connect/button_tl-buy-btn'))
 WebUI.setText(findTestObject('TokenSale/Page_Farad Connect/input_tokenBuyQuantity'), tokenSale.tokenAmount)
 
@@ -55,7 +55,7 @@ WebUI.closeBrowser()
 // BROWSER 2 — User 2 places the matching SELL order
 loginKeywords.loginWithCredentials(tokenSale.user2Name, tokenSale.user2Pass)
 
-WebUI.click(findTestObject('TokenSale/Page_Farad Connect/a_FTG Token'))
+WebUI.click(findTestObject('TokenSale/Page_Farad Connect/button_FTG Token'))
 WebUI.click(findTestObject('TokenSale/Page_Farad Connect/button_tl-sell-btn'))
 WebUI.setText(findTestObject('TokenSale/Page_Farad Connect/input_tokenSellQuantity'), tokenSale.tokenAmount)
 WebUI.setText(findTestObject('TokenSale/Page_Farad Connect/input_tokenSellPrice'), tokenSale.tokenSellPrice)
@@ -72,7 +72,7 @@ WebUI.click(findTestObject('TokenSale/Page_Farad Connect/button_tl-confirm-ok'))
 
 // VERIFY — check the Orders tab in BOTH browsers
 // --- User 2 (seller) — already active, check here first ---
-WebUI.click(findTestObject('TokenSale/Page_Farad Connect/a_Orders'))
+WebUI.click(findTestObject('TokenSale/Page_Farad Connect/button_Orders'))
 WebUI.verifyElementText(findTestObject('TokenSale/Page_Farad Connect/tokenOrders_Type'), 'Sell')
 WebUI.verifyElementText(findTestObject('TokenSale/Page_Farad Connect/tokenOrders_quantity'), tokenSale.tokenAmount + '.00')
 WebUI.verifyElementText(findTestObject('TokenSale/Page_Farad Connect/tokenOrders_price'), '$' + String.format('%.2f', actualSellTotal))
@@ -85,9 +85,9 @@ WebUI.closeBrowser()
 
 // --- User 1 (buyer) — switch back and re-check ---
 loginKeywords.loginWithCredentials(tokenSale.user1Name, tokenSale.user1Pass)
-WebUI.click(findTestObject('TokenSale/Page_Farad Connect/a_FTG Token'))
+WebUI.click(findTestObject('TokenSale/Page_Farad Connect/button_FTG Token'))
 
-WebUI.click(findTestObject('TokenSale/Page_Farad Connect/a_Orders'))
+WebUI.click(findTestObject('TokenSale/Page_Farad Connect/button_Orders'))
 WebUI.refresh()
 WebUI.verifyElementText(findTestObject('TokenSale/Page_Farad Connect/tokenOrders_Type'), 'Buy')
 WebUI.verifyElementText(findTestObject('TokenSale/Page_Farad Connect/tokenOrders_quantity'), tokenSale.tokenAmount + '.00')
