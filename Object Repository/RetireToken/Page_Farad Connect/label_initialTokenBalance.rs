@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_initialTokenBalance</name>
+   <tag></tag>
+   <elementGuidId>6750688d-7f49-419a-a2b4-88917cc5074e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#coinBalanceDisplay</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'coinBalanceDisplay']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>541a985d-5c3a-42dc-b642-879b20982346</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tl-smodal__info-amount</value>
+      <webElementGuid>db51e9e6-9d37-410b-beea-d6b014cbafcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>coinBalanceDisplay</value>
+      <webElementGuid>5624cdcc-6e75-4d7d-891c-518a2e260eea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>5.9100</value>
+      <webElementGuid>24b58709-741c-473b-bd3d-404f16cea852</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-bafa11e4941249634d161b35a0353eeb</value>
+      <webElementGuid>5e57fa40-ceae-4ad7-8be1-aa06466eceee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'coinBalanceDisplay']</value>
+      <webElementGuid>59acfa17-8925-4c94-af79-9ce94e24911a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'coinBalanceDisplay']</value>
+      <webElementGuid>569e9dc8-29ab-4ed9-b7c3-a25d6f38b818</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[@id = 'coinBalanceDisplay' and (text() = '5.9100' or . = '5.9100')]</value>
+      <webElementGuid>973e8f55-af7c-470a-92f7-e280a5068ade</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

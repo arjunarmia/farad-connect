@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_forgotUsernameLink</name>
+   <tag></tag>
+   <elementGuidId>86552c42-1d15-4ab2-b383-9802242cbfbd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#forgotUsernameLink</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'forgotUsernameLink']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8d107c83-2412-451e-8566-6e1bfec72e28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>forgotUsernameLink</value>
+      <webElementGuid>2594ca61-ad0e-435b-82dd-72024a045ac9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>login-card__footer-link</value>
+      <webElementGuid>bcd77466-71bd-43fd-8ac6-2b4619dc6b5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>forgotusername.php</value>
+      <webElementGuid>3e9c0e16-2397-4936-abf8-24027e568966</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>e3be4407-d40d-4e03-8c12-5211ffd37dc0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Forgot username</value>
+      <webElementGuid>c1eb31ad-d0ae-436a-b5a8-04ff3bb8ebc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>   Forgot Username?
+        </value>
+      <webElementGuid>97679fe3-beb5-4496-96fd-e186ebc97153</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-3cd8840fbac91da9b503dbb66b51a73c</value>
+      <webElementGuid>dee1ce25-2c1a-4941-be39-9aec358ddd40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'forgotUsernameLink']</value>
+      <webElementGuid>4288fc9c-9bac-4929-9ebd-5b4cf44bc6df</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'forgotUsernameLink']</value>
+      <webElementGuid>cc5a5d22-977e-4b43-9532-276cd0b68597</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'forgotUsernameLink' and @href = 'forgotusername.php' and (text() = '   Forgot Username?
+        ' or . = '   Forgot Username?
+        ')]</value>
+      <webElementGuid>cdf055fe-f0bc-4c0c-9b29-6bcc4b1c8585</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

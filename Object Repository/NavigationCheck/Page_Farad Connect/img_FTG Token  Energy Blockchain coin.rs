@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_FTG Token  Energy Blockchain coin</name>
+   <tag></tag>
+   <elementGuidId>1e211d9c-3d43-4f7a-af72-4e0e4464d53d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.tl-coin</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' tl-coin ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>e2f9f9b7-6a9b-4cfc-af86-a44bbdb20402</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://beta.faradconnect.net/faradtoken/global/images/ftg.png</value>
+      <webElementGuid>26c7488f-47a5-4e0a-99dc-da13fb957d97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>FTG Token — Energy Blockchain coin</value>
+      <webElementGuid>eb1a57a0-7cd2-4ffd-9c6f-213e358d2a7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tl-coin</value>
+      <webElementGuid>1abbe78a-f73c-486f-b27b-135d9a03947b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>320</value>
+      <webElementGuid>849cba1f-8435-4f59-aaf3-847be67e6018</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>320</value>
+      <webElementGuid>a14c1bc6-24c6-425e-a486-3843c5ac07d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-4a282028530912ef932ec274b55541e4</value>
+      <webElementGuid>0b8a9704-b3df-4483-88f4-1e861d022c1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' tl-coin ')]</value>
+      <webElementGuid>89a2b15f-25af-4d84-8466-1a1c8fb6e9a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' tl-coin ')]</value>
+      <webElementGuid>24150b3d-492b-4ee5-9ec0-338d0a63bacb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://beta.faradconnect.net/faradtoken/global/images/ftg.png' and @alt = 'FTG Token — Energy Blockchain coin']</value>
+      <webElementGuid>0feaa49d-ae2f-4225-a7d3-d3ce6446a0e3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

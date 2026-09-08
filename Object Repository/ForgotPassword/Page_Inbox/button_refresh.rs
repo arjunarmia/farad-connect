@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_refresh</name>
+   <tag></tag>
+   <elementGuidId>141971cf-bc43-483b-8fb3-abce5f935e7a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#refresh</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'refresh']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ef867e62-aa3d-46b0-b95e-26ab71ecb3d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>refresh</value>
+      <webElementGuid>120e15c1-7edc-4cdb-a56b-74b0ea3234a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md but textu f36</value>
+      <webElementGuid>fd66400c-7fc4-49ec-a92f-a5f1c7ec3bd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>if(chkl())r();</value>
+      <webElementGuid>4c484688-d64b-4372-8408-61517672b125</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>5359c041-e05c-41db-8d96-d7cca9f63cd8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-7488d1eb1caae14d2f59383717286aad</value>
+      <webElementGuid>34d98e45-9f15-470e-8d8f-2003c5f87d8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'refresh']</value>
+      <webElementGuid>18c12985-ba2a-44fc-bdf3-57c2ab3ec9d4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'refresh']</value>
+      <webElementGuid>5aa6e2fc-b644-4fc9-8a40-3e0d805bd8ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'refresh' and (text() = '' or . = '')]</value>
+      <webElementGuid>ab9116be-18b2-4017-abc4-50fdd1a81a3a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

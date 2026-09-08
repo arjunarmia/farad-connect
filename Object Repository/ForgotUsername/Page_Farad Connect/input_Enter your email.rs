@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Enter your email</name>
+   <tag></tag>
+   <elementGuidId>9db49996-de35-442c-b99b-e2746c2e8d0f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#forgotEmail</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'forgotEmail']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>a4e8da38-8f98-45eb-ba4f-50ff620f12c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>email</value>
+      <webElementGuid>8da0e1e1-064f-4e6e-a4e5-a1a61cde15dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>forgotEmail</value>
+      <webElementGuid>2261e226-d3bb-406a-af9d-43271a6f5500</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>login-form__input</value>
+      <webElementGuid>d2c5f54a-10f8-4208-9094-b165ee968afa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter your email</value>
+      <webElementGuid>a1cc364e-5a1c-418f-b160-37b4b7c99792</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-d467920625d87ef9ba0b6051cedfd47c</value>
+      <webElementGuid>cc17f601-c53a-4d0c-8dba-479c290cc311</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'forgotEmail']</value>
+      <webElementGuid>a1b53d7a-034a-48a7-a400-18c33f0d1281</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'forgotEmail']</value>
+      <webElementGuid>1eb4c099-6a65-4b4a-b359-31ecf924824f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'email' and @id = 'forgotEmail' and @placeholder = 'Enter your email']</value>
+      <webElementGuid>ce1916b3-3f2f-4f7e-bd57-4d7a07fcafbe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

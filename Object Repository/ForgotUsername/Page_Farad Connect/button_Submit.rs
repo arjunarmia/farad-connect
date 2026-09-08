@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Submit</name>
+   <tag></tag>
+   <elementGuidId>1d5f84b8-64f9-4dd1-96e8-f421f0fd5126</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#forgotForm .login-form__btn--primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'forgotForm']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' login-form__btn--primary ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8aebbd53-d058-436b-96dc-010f87a7c041</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>c3d446da-2e1f-49b2-a07a-5e5db06c8385</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>login-form__btn login-form__btn--primary</value>
+      <webElementGuid>b86053a4-9fe9-48d3-928c-96e7ee7c3e35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+        Submit
+      </value>
+      <webElementGuid>c0ee768f-5274-4605-8577-fa3fd7284c25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-e9a5aad11659c4f2a5cedac88a7109d7</value>
+      <webElementGuid>44f6c0da-ef33-478e-bbc4-95ed79b443db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'forgotForm']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' login-form__btn--primary ')]</value>
+      <webElementGuid>eccea58b-68fd-4cd6-bf9d-4d7d481e9c70</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'forgotForm']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' login-form__btn--primary ')]</value>
+      <webElementGuid>f2fe8fee-7375-41ef-9561-8965f97387e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = '
+        Submit
+      ' or . = '
+        Submit
+      ')]</value>
+      <webElementGuid>384a6ab8-62d1-407d-bae5-5aad81be44e0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

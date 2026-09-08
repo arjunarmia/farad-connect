@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Enter FTG Token Security Key for Verificat</name>
+   <tag></tag>
+   <elementGuidId>f3b8b825-dcc6-4b45-85df-408227b09571</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#tl-validate-input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'tl-validate-input']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>5493b5d9-8ba1-4d92-8fab-55f43ee5e107</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tl-vmodal__input</value>
+      <webElementGuid>bb4a6caf-6d45-421e-9e1b-81579e432801</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>cf558b8e-a623-4849-9edc-75693d5aa129</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>tl-validate-input</value>
+      <webElementGuid>34f36bd9-9132-492a-9e21-03834bbeba19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter FTG Token Security Key for Verification</value>
+      <webElementGuid>285086f6-3861-415e-a926-d7f4341a37c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>d8cf8a82-4316-47fe-b364-53937a5ca70f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Farad Validation Security Key</value>
+      <webElementGuid>6d5458e3-9470-49e7-b644-bdaf8372f39d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-09560e2757353cb6a9fd2f46c0ff72fb</value>
+      <webElementGuid>01b65bef-282b-42db-afa5-450f6e7e9af5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'tl-validate-input']</value>
+      <webElementGuid>0afcc5c5-19ea-452f-9d96-8c0712cd0728</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'tl-validate-input']</value>
+      <webElementGuid>37d8ebbe-b2e7-4952-874e-f71eed7ed1e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @id = 'tl-validate-input' and @placeholder = 'Enter FTG Token Security Key for Verification']</value>
+      <webElementGuid>48c77c2e-0532-4c8e-a14d-f756583d3f6a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

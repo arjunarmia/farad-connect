@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_tl-vmodal-search</name>
+   <tag></tag>
+   <elementGuidId>b5ab8ef5-f09f-4227-9351-c1282a74e68b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#tl-vmodal-search</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'tl-vmodal-search']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7fddc494-4a8b-4b03-9985-02511ffbf99c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tl-vmodal__search-btn</value>
+      <webElementGuid>fe3c03e2-49e9-42a5-9d6d-03c50af86c22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>tl-vmodal-search</value>
+      <webElementGuid>4836dc91-9b99-4a22-8169-de367fc6ef9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>8e81772c-08c2-4a47-93a1-833f34da4115</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Search</value>
+      <webElementGuid>65618883-190a-4790-bfd7-370ed9197900</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+          
+          Search
+        </value>
+      <webElementGuid>150760ba-99fd-4588-b5fb-4de127561fe1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9d3b45eb4ce26cc2928512ba05e8ab53</value>
+      <webElementGuid>010205dc-2ac7-4f04-bb4a-762a65e72523</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'tl-vmodal-search']</value>
+      <webElementGuid>eba42800-0cf3-42c7-9c38-2b3b702d13cd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'tl-vmodal-search']</value>
+      <webElementGuid>7c1725fa-9bf9-4fa6-bb02-ff1d6ffbc4ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'tl-vmodal-search' and @type = 'submit' and (text() = '
+          
+          Search
+        ' or . = '
+          
+          Search
+        ')]</value>
+      <webElementGuid>81c4107f-ac25-463d-be3e-acc71aab510f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_sendSubscriberBalance</name>
+   <tag></tag>
+   <elementGuidId>f91d937e-355b-46a9-ab4a-45e431473da6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#send-subscriber-balance</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'send-subscriber-balance']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>8ee62174-d00c-4976-af3d-85de56f2f4be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>send-tokens__balance-value</value>
+      <webElementGuid>0bf03118-9083-4ff9-9f63-c54b306c6fb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>send-subscriber-balance</value>
+      <webElementGuid>e29d7840-1ed6-4aec-afb2-ff41c6e8b7ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>5.5100</value>
+      <webElementGuid>69ad81da-b072-4d4e-9f89-01d3e19f9f12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-969111c0177ab439ae248e2616223ff6</value>
+      <webElementGuid>c828723a-5725-4dcb-966b-40d0a035dfd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'send-subscriber-balance']</value>
+      <webElementGuid>0b9ef97d-04c3-4366-9ee2-fb6728e9cbb8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'send-subscriber-balance']</value>
+      <webElementGuid>ee1f4a3d-7c87-416b-936d-308a03ffd85f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = 'send-subscriber-balance' and (text() = '5.5100' or . = '5.5100')]</value>
+      <webElementGuid>b1be1a4b-c76e-4e0e-9942-c5bc5bd13455</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

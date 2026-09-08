@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_forgotPasswordLink</name>
+   <tag></tag>
+   <elementGuidId>81a79172-f1b8-4feb-a76b-6037b0e92802</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#forgotPasswordLink</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'forgotPasswordLink']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>3ba3e62e-ce96-46c5-be3c-11af00a71919</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>forgotPasswordLink</value>
+      <webElementGuid>66528c38-243b-448e-918e-4274943efcb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>login-card__footer-link</value>
+      <webElementGuid>d3895898-27bb-47d4-b04a-75501d81e573</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>forgotpass.php</value>
+      <webElementGuid>1cac3f8a-d458-49fa-b537-3a89f3beaaed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>4bf1633c-9388-4154-90c0-15fae0d771a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Forgot password</value>
+      <webElementGuid>06949d63-a10a-4046-81b0-c57650ee1cfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+          Forgot Password?
+        </value>
+      <webElementGuid>ef8db56f-1df1-4e26-b07c-ad9217ba9ba4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-b81734994f976730b40e487e448d87f6</value>
+      <webElementGuid>ffc80a3c-9c40-466e-84d8-80cebd054fbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'forgotPasswordLink']</value>
+      <webElementGuid>e1f4880a-f6e1-476f-ab91-f3a0affa161e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'forgotPasswordLink']</value>
+      <webElementGuid>42e0678f-2ba1-4ad3-a61b-65c823e7f231</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'forgotPasswordLink' and @href = 'forgotpass.php' and (text() = '
+          Forgot Password?
+        ' or . = '
+          Forgot Password?
+        ')]</value>
+      <webElementGuid>4efbc7c3-fdf0-4ead-ace8-0099eefb0b4c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

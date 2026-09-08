@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Click here</name>
+   <tag></tag>
+   <elementGuidId>8089c25b-d12b-4b2a-938f-135b355a2af2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>09300681-e9e7-43fa-ad75-5f1c9876e58c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://beta.faradconnect.net/reset-password.php?id=a2htejRROE01Mk5EK1VjQUpFOU9wSHBKTkVsUFkydHpja2xJVlNzdk5WVmFabWhaVlVscWFHUlZVV1ZqYjIweGVGRnhlRlp3YkVneVptczk%3D</value>
+      <webElementGuid>ee34381f-5d66-4ffb-b272-bc4abf5fae4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Click here</value>
+      <webElementGuid>364d2a74-4dd1-4546-b3d5-41d47e2436d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-336e16b7c7d0f9dc45f25024f3a40ede</value>
+      <webElementGuid>5d10d236-0497-4fd1-ad39-6aecda7dadc0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>4f2da2f7-df4a-44b8-9ed1-d5d35536d198</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/ForgotPassword/Page_Inbox/iframe_ifmail</value>
+      <webElementGuid>6bee7e05-11e5-42fb-8293-a32ebceb6a4b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>c16c7bae-971a-40aa-9db9-852d7686768b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://beta.faradconnect.net/reset-password.php?id=a2htejRROE01Mk5EK1VjQUpFOU9wSHBKTkVsUFkydHpja2xJVlNzdk5WVmFabWhaVlVscWFHUlZVV1ZqYjIweGVGRnhlRlp3YkVneVptczk%3D' and (text() = 'Click here' or . = 'Click here')]</value>
+      <webElementGuid>a109f9fd-50cd-4a4e-92ef-6598aeb095e9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_ft-ordN-dashboard-title</name>
+   <tag></tag>
+   <elementGuidId>54254cf7-cd08-4c0d-9c9b-8856739a0593</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ft-ordN-dashboard-title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'ft-ordN-dashboard-title']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>4550874a-f4a6-4e5e-b4de-6b310e5feb18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ft-ordN__dash-title</value>
+      <webElementGuid>7c9d97ef-9378-48fc-9d0b-7750d3433334</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ft-ordN-dashboard-title</value>
+      <webElementGuid>143fbce0-79a9-4779-b6cd-172899d8577a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Orders Dashboard</value>
+      <webElementGuid>aff529a8-833a-4f2e-ad57-721e8bc42aa4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-127c5c119b4dc1ea58768b005b0e1177</value>
+      <webElementGuid>bb7dd41d-9879-4408-bee2-51dbf1d94418</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'ft-ordN-dashboard-title']</value>
+      <webElementGuid>fa5e60de-60e4-4558-915a-e0bef0fb3498</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'ft-ordN-dashboard-title']</value>
+      <webElementGuid>ac906889-3c06-4d3c-b3b0-67507a3d2ec4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[@id = 'ft-ordN-dashboard-title' and (text() = 'Orders Dashboard' or . = 'Orders Dashboard')]</value>
+      <webElementGuid>7497632a-a958-4bf8-bad0-0cf3638dbe6b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

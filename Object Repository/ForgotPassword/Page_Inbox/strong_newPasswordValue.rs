@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>strong_newPasswordValue</name>
+   <tag></tag>
+   <elementGuidId>48cd035e-1784-4d0a-b09d-c1c33bf001fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td > strong</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td/strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>d396dfe1-cf72-42ab-9fd7-9e45c7b4305b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PBdq4n2G</value>
+      <webElementGuid>01850eb0-13e2-4cf9-917a-ce6b9d0437f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-e806d2ec05b2cea93a255986e4c2b3ab</value>
+      <webElementGuid>ac52774e-c2d7-4400-9129-33c9fb2157ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//td/strong</value>
+      <webElementGuid>a61164c9-08b4-4eca-87c2-5790c658db7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/ForgotPassword/Page_Inbox/iframe_ifmail</value>
+      <webElementGuid>251962c7-999a-48b7-8c7d-ce1a5aca3304</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//td/strong</value>
+      <webElementGuid>3012563e-6b52-459b-80af-ed87cd44527f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = 'PBdq4n2G' or . = 'PBdq4n2G')]</value>
+      <webElementGuid>097eca37-7aed-41a6-bb23-3c6930cc8bd9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

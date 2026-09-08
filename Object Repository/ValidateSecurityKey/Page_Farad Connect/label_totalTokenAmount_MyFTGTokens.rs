@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_totalTokenAmount_MyFTGTokens</name>
+   <tag></tag>
+   <elementGuidId>8958b0a3-e42f-42b3-93b3-359f78bce40d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.token-admin__stat-card.token-admin__stat-card--balance .token-admin__stat-value</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' token-admin__stat-card ') and contains(concat(' ', normalize-space(@class), ' '), ' token-admin__stat-card--balance ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' token-admin__stat-value ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2ff7abb2-a8bb-41d9-b76a-07c2e256cc20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>token-admin__stat-value</value>
+      <webElementGuid>dde8e5b5-6744-4f05-9354-80444c7f3600</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>5.1100</value>
+      <webElementGuid>e7331648-a6d8-4b36-87a4-b6b57bc80b41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-7467a704449e76625c64cc5a2f54b874</value>
+      <webElementGuid>08b4a0af-3916-43e3-9aef-6b17aee7643e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' token-admin__stat-card ') and contains(concat(' ', normalize-space(@class), ' '), ' token-admin__stat-card--balance ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' token-admin__stat-value ')]</value>
+      <webElementGuid>990d442d-251a-4353-afd8-3b31b5092b79</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' token-admin__stat-card ') and contains(concat(' ', normalize-space(@class), ' '), ' token-admin__stat-card--balance ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' token-admin__stat-value ')]</value>
+      <webElementGuid>98a3711f-8fc8-4da5-a887-7971fd1eb9b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '5.1100' or . = '5.1100')]</value>
+      <webElementGuid>89f91fb0-dd23-451e-9e7b-dc412f3d9d4d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

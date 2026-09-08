@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Retired _ Tokens</name>
+   <tag></tag>
+   <elementGuidId>e2e4d77d-b625-41c5-b172-d829bf291318</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;https\:\/\/beta\.faradconnect\.net\/faradtoken\/token-activity\.php\?tab\=retired&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@href = 'https://beta.faradconnect.net/faradtoken/token-activity.php?tab=retired']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>67b2ebac-6411-42fb-90ad-691af1bee5b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://beta.faradconnect.net/faradtoken/token-activity.php?tab=retired</value>
+      <webElementGuid>a7b89723-3b88-4730-b0d8-3d8c55bbadce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>token-activity__tab</value>
+      <webElementGuid>2b2846de-fe22-497f-b4a7-0451e1e155a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>tab</value>
+      <webElementGuid>e2e3940e-7fb3-49b8-b469-3216bd7c9545</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>5fbb74bf-51b7-494b-adb1-5fa339c6554e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>5a8adcfb-5f12-421e-868f-fa36417f17a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+      Retired / Burn Tokens    </value>
+      <webElementGuid>489bc61c-8837-461e-89c7-5f49edbb2758</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-f9e4c0cf4d8f9dee16e4c36f7355d57d</value>
+      <webElementGuid>7f908b42-1d81-4b41-b72b-e7c8c5ee3b8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = 'https://beta.faradconnect.net/faradtoken/token-activity.php?tab=retired']</value>
+      <webElementGuid>55b99f44-46ac-4faf-a59c-7324c9786d8f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = 'https://beta.faradconnect.net/faradtoken/token-activity.php?tab=retired']</value>
+      <webElementGuid>fa299e0c-de09-4607-a48a-8a2d74c97e2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://beta.faradconnect.net/faradtoken/token-activity.php?tab=retired' and (text() = '
+      Retired / Burn Tokens    ' or . = '
+      Retired / Burn Tokens    ')]</value>
+      <webElementGuid>4cef50df-ea4f-466d-b046-e2c3df9045cf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
