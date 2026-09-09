@@ -18,21 +18,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String url = 'https://beta.faradconnect.net/login.php'
 
-String username = 'ArjunNew'
+WebUI.openBrowser(GlobalVariable.G_URL)
 
-String password = 'Test@123'
+WebUI.setText(findTestObject('Object Repository/Login/input_login_userName'), GlobalVariable.G_USERNAME)
 
-// 1: Open browser and navigate to the site
-WebUI.openBrowser(url)
-
-WebUI.maximizeWindow()
-
-// 2: Fill in credentials and check "Remember Me"
-WebUI.setText(findTestObject('Object Repository/Login/input_login_userName'), username)
-
-WebUI.setText(findTestObject('Object Repository/Login/input_login_password'), password)
+WebUI.setText(findTestObject('Object Repository/Login/input_login_password'), GlobalVariable.G_PASSWORD)
 
 // Check if the checkbox is not already checked, then click it
 if (!(WebUI.verifyElementChecked(findTestObject('Object Repository/Login/checkbox_login_rememberMe'), 2, FailureHandling.OPTIONAL))) {
@@ -53,7 +44,7 @@ WebUI.closeBrowser()
 
 WebUI.delay(2)
 
-WebUI.openBrowser(url)
+WebUI.openBrowser(GlobalVariable.G_URL)
 
 // STEP 6: Verification Logic
 // Depending on the site's implementation, 'Remember Me' usually does one of two things:
@@ -66,7 +57,7 @@ if (isLoggedIn) {
 } else {
     String savedUser = WebUI.getAttribute(findTestObject('Object Repository/Login/input_login_userName'), 'value')
 
-    if (savedUser == username) {
+    if (savedUser == GlobalVariable.G_USERNAME) {
         WebUI.comment('SUCCESS: Username field was pre-filled.')
     } else {
         KeywordUtil.markFailed('FAIL: Remember Me functionality did not persist session or pre-fill username.')

@@ -22,8 +22,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys
 
 def sendMoney = [
-    amount       : '1',
-    receiverName : 'Hercule Poirot',
+    amount       : '0.1',
+    receiverName : GlobalVariable.G_RECEIVER_NAME,
     message      : 'This is a test message'
 ]
 

@@ -13,7 +13,7 @@ import internal.GlobalVariable as GlobalVariable
 
 def voucher = [
 	name    : 'Katalon Voucher',
-	num     : '2',
+	num     : '1',
 	newName : 'Testing Voucher'
 ]
 

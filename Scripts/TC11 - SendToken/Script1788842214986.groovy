@@ -21,10 +21,10 @@ import org.openqa.selenium.Keys as Keys
 
 def token = [
     sendAmount      : '0.10',
-    recieverName    : 'tomsawyer',
+    recieverName    : GlobalVariable.G_RECEIVER_NAME,
 	desc            : 'This is a test.',
-    userName        : 'ArjunNew',
-    userPass        : '123456'
+    userName        : GlobalVariable.G_USERNAME,
+    userPass        : GlobalVariable.G_PASSWORD
 ]
 
 double sendAmountNum = token.sendAmount.toDouble()

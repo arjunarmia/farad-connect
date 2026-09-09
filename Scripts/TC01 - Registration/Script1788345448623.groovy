@@ -27,7 +27,7 @@ def newUser = [
     username : prefix,
     firstname: "KTester",
     lastname : System.currentTimeMillis().toString(),
-    refCode  : "TOM2558",
+    refCode  : GlobalVariable.G_USER_REFCODE,
     phoneNum : "9" + System.currentTimeMillis().toString().substring(4),
     email    : prefix + "@yopmail.com",
     password : "Test@123"

@@ -20,10 +20,10 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 def securityKey = [
-    user1Name      : 'tomsawyer',
-    user1Pass      : 'Test@123',
-    user2Name      : 'ArjunNew',
-    user2Pass      : '123456'
+    user1Name      : GlobalVariable.G_USERNAME,
+    user1Pass      : GlobalVariable.G_PASSWORD,
+    user2Name      : GlobalVariable.G_RECEIVER_NAME,
+    user2Pass      : GlobalVariable.G_PASSWORD
 ]
 
 LoginKeywords loginKeywords = new LoginKeywords()

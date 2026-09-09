@@ -34,6 +34,13 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'TOM2558'</initValue>
+      <name>G_USER_REFCODE</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'tomsawyer@yopmail.com'</initValue>
       <name>G_EMAIL</name>
       <protected>false</protected>
@@ -99,6 +106,13 @@
       <description></description>
       <initValue>'+91 9957266680'</initValue>
       <name>G_PHONE_NUM</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'HerculePoirot'</initValue>
+      <name>G_RECEIVER_NAME</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>

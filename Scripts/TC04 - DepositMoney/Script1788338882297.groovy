@@ -21,7 +21,7 @@ import farad.YopmailKeywords
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String depositMoney = '5'
+String depositMoney = '0.1'
 
 LoginKeywords loginKeywords = new LoginKeywords()
 loginKeywords.login()

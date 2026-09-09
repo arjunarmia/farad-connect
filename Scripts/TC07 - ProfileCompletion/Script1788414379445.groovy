@@ -26,11 +26,11 @@ def userDetails = [
 	fullName  : 'KTester Tom',
 	gender    : 'F',
 	website   : 'https://www.youtube.com',
-	address   : 'Random Address',
+	address   : GlobalVariable.G_ADDRESS,
 	country   : 'India',
 	state     : 'Kerala',
-	city      : 'Ernakulam' ,
-	zipCode   : '622789'
+	city      : GlobalVariable.G_CITY ,
+	zipCode   : GlobalVariable.G_POSTALCODE
 ]
 
 LoginKeywords loginKeywords = new LoginKeywords()

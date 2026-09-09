@@ -22,12 +22,12 @@ import farad.LoginKeywords
 
 
 def tokenSale = [
-    tokenAmount    : '2',
+    tokenAmount    : '0.1',
     tokenSellPrice : '3',
-    user1Name      : 'tomsawyer',
-    user1Pass      : 'Test@123',
-    user2Name      : 'ArjunNew',
-    user2Pass      : '123456'
+    user1Name      : GlobalVariable.G_USERNAME,
+    user1Pass      : GlobalVariable.G_PASSWORD,
+    user2Name      : GlobalVariable.G_RECEIVER_NAME,
+    user2Pass      : GlobalVariable.G_PASSWORD
 ]
 
 // BROWSER 1 — User 1 places the BUY order

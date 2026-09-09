@@ -22,8 +22,8 @@ import org.openqa.selenium.Keys as Keys
 def token = [
     retireAmount    : '0.10',
     tokenPrice      : '3',
-    userName        : 'ArjunNew',
-    userPass        : '123456'
+    userName        : GlobalVariable.G_RECEIVER_NAME,
+    userPass        : GlobalVariable.G_PASSWORD
 ]
 
 double retireAmountNum = token.retireAmount.toDouble()
