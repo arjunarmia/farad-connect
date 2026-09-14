@@ -23,7 +23,7 @@ import farad.LoginKeywords
 
 def tokenSale = [
     tokenAmount    : '0.1',
-    tokenSellPrice : '3',
+    tokenSellPrice : '3.00',
     user1Name      : GlobalVariable.G_USERNAME,
     user1Pass      : GlobalVariable.G_PASSWORD,
     user2Name      : GlobalVariable.G_RECEIVER_NAME,
@@ -41,10 +41,13 @@ WebUI.setText(findTestObject('TokenSale/Page_Farad Connect/input_tokenBuyQuantit
 String unitPriceBuyText = WebUI.getAttribute(findTestObject('TokenSale/Page_Farad Connect/input_tokenBuyPrice'), 'value')
 double unitPriceBuy = unitPriceBuyText.toDouble()
 double expectedBuyTotal = unitPriceBuy * tokenSale.tokenAmount.toDouble()
+expectedBuyTotal = Math.round(expectedBuyTotal * 100) / 100.0
 
 String actualBuyTotalText = WebUI.getText(findTestObject('TokenSale/Page_Farad Connect/label_tokenBuyTotal'))
 double actualBuyTotal = actualBuyTotalText.replaceAll('[^0-9.]', '').toDouble()
-WebUI.verifyMatch(String.valueOf(actualBuyTotal), String.valueOf(expectedBuyTotal), false)
+actualBuyTotal = Math.round(actualBuyTotal * 100) / 100.0
+
+WebUI.verifyMatch(String.format('%.2f', actualBuyTotal), String.format('%.2f',expectedBuyTotal), false)
 
 WebUI.click(findTestObject('TokenSale/Page_Farad Connect/label_tokenBuyTotal'))
 WebUI.click(findTestObject('TokenSale/Page_Farad Connect/button_tl-bmodal-buy'))
@@ -61,9 +64,13 @@ WebUI.setText(findTestObject('TokenSale/Page_Farad Connect/input_tokenSellQuanti
 WebUI.setText(findTestObject('TokenSale/Page_Farad Connect/input_tokenSellPrice'), tokenSale.tokenSellPrice)
 
 double expectedSellTotal = tokenSale.tokenSellPrice.toDouble() * tokenSale.tokenAmount.toDouble()
+expectedSellTotal = Math.round(expectedSellTotal * 100) / 100.0
+
 String actualSellTotalText = WebUI.getText(findTestObject('TokenSale/Page_Farad Connect/label_tokenSellTotal'))
 double actualSellTotal = actualSellTotalText.replaceAll('[^0-9.]', '').toDouble()
-WebUI.verifyMatch(String.valueOf(actualSellTotal), String.valueOf(expectedSellTotal), false)
+actualSellTotal = Math.round(actualSellTotal * 100) / 100.0
+
+WebUI.verifyMatch(String.format('%.2f', actualSellTotal), String.format('%.2f', expectedSellTotal), false)
 
 WebUI.click(findTestObject('TokenSale/Page_Farad Connect/label_tokenSellTotal'))
 WebUI.click(findTestObject('TokenSale/Page_Farad Connect/button_tl-smodal-sell'))
@@ -74,7 +81,8 @@ WebUI.click(findTestObject('TokenSale/Page_Farad Connect/button_tl-confirm-ok'))
 // --- User 2 (seller) — already active, check here first ---
 WebUI.click(findTestObject('TokenSale/Page_Farad Connect/button_Orders'))
 WebUI.verifyElementText(findTestObject('TokenSale/Page_Farad Connect/tokenOrders_Type'), 'Sell')
-WebUI.verifyElementText(findTestObject('TokenSale/Page_Farad Connect/tokenOrders_quantity'), tokenSale.tokenAmount + '.00')
+WebUI.verifyElementText(findTestObject('TokenSale/Page_Farad Connect/tokenOrders_quantity'), 
+	String.format('%.2f', tokenSale.tokenAmount.toDouble()))
 WebUI.verifyElementText(findTestObject('TokenSale/Page_Farad Connect/tokenOrders_price'), '$' + String.format('%.2f', actualSellTotal))
 WebUI.verifyElementText(findTestObject('TokenSale/Page_Farad Connect/tokenOrders_status'), 'Completed')
 
@@ -90,7 +98,10 @@ WebUI.click(findTestObject('TokenSale/Page_Farad Connect/button_FTG Token'))
 WebUI.click(findTestObject('TokenSale/Page_Farad Connect/button_Orders'))
 WebUI.refresh()
 WebUI.verifyElementText(findTestObject('TokenSale/Page_Farad Connect/tokenOrders_Type'), 'Buy')
-WebUI.verifyElementText(findTestObject('TokenSale/Page_Farad Connect/tokenOrders_quantity'), tokenSale.tokenAmount + '.00')
+WebUI.verifyElementText(
+    findTestObject('TokenSale/Page_Farad Connect/tokenOrders_quantity'),
+    String.format('%.2f', tokenSale.tokenAmount.toDouble())
+)
 WebUI.verifyElementText(findTestObject('TokenSale/Page_Farad Connect/tokenOrders_status'), 'Completed')
 
 actualUserNameText = WebUI.getText(findTestObject('TokenSale/Page_Farad Connect/tokenOrders_userName'))

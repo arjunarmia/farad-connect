@@ -6,12 +6,12 @@
    <elementGuidId>46d12bd1-b6cd-4eaa-a43b-b902fcb2492e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>img</value>
+         <key>XPATH</key>
+         <value>//*[@aria-label = 'Verified Energy Network']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//img[contains(@src,'https://d272pp5vvcmeut.cloudfront.net/gizlayouts/asset/img/FaradConnect.svg')]</value>
+         <key>CSS</key>
+         <value>img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>a57719a4-6888-4a1a-84ab-88cc8701f718</webElementGuid>
+      <webElementGuid>89f137b9-b041-49ce-a69e-82b26ce2edc5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>src</name>
       <type>Main</type>
       <value>https://d272pp5vvcmeut.cloudfront.net/gizlayouts/asset/img/FaradConnect.svg</value>
-      <webElementGuid>c206004a-4591-4edf-bde5-61327d297c2b</webElementGuid>
+      <webElementGuid>054cbd28-091a-491c-88fc-0ca9dd05e5de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/nav[@class=&quot;navbar navbar-expand-sm navbar-dark bg-white main-nav main-top-pad top-nav-position fixed-top&quot;]/div[@class=&quot;container-fluid&quot;]/a[@class=&quot;navbar-brand logo-lt logo-top&quot;]/img[1]</value>
-      <webElementGuid>1088674f-bafe-4c52-81c0-2f98c2b3edcb</webElementGuid>
+      <webElementGuid>87cb2572-e0fb-4def-ab12-ac28bd19607a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[contains(@src,'https://d272pp5vvcmeut.cloudfront.net/gizlayouts/asset/img/FaradConnect.svg')]</value>
-      <webElementGuid>d18d9b3e-1ae4-483b-ad8f-853baa0507cf</webElementGuid>
+      <webElementGuid>69f81587-8e6b-467c-a290-9d7d8fe2d6c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//img</value>
-      <webElementGuid>725e348d-f9da-42dd-bd09-a323dceadeea</webElementGuid>
+      <webElementGuid>1be9d204-0ea3-4305-849b-1fd0c775ddaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +63,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'https://d272pp5vvcmeut.cloudfront.net/gizlayouts/asset/img/FaradConnect.svg']</value>
-      <webElementGuid>2bee90ad-31e3-4545-9252-737068a2f93c</webElementGuid>
+      <webElementGuid>16d72ec3-e867-4828-ab64-6ac38f383cb9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

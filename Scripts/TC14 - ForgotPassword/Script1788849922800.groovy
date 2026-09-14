@@ -42,7 +42,7 @@ WebUI.click(findTestObject('ForgotPassword/Page_Inbox/iframe_ifmail'))
 WebUI.click(findTestObject('ForgotPassword/Page_Inbox/a_Click here'))
 
 // Reset link
-WebUI.switchToWindowTitle('Farad Connect')
+WebUI.switchToWindowTitle('FTG Connect')
 WebUI.waitForPageLoad(10)
 
 WebUI.verifyElementVisible(findTestObject('ForgotPassword/Page_Farad Connect/div_Your password has been successfully reset. A'))

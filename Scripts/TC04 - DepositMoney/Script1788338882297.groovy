@@ -21,7 +21,7 @@ import farad.YopmailKeywords
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String depositMoney = '0.1'
+String depositMoney = '0.5'
 
 LoginKeywords loginKeywords = new LoginKeywords()
 loginKeywords.login()
@@ -54,8 +54,12 @@ WebUI.setText(findTestObject('DepositMoney/Page_Farad Connect/input_10001'), Glo
 
 WebUI.click(findTestObject('DepositMoney/Page_Farad Connect/button_purchaseCard'))
 
-PINEntry pinEntry = new PINEntry()
+WebUI.waitForElementClickable(findTestObject('DepositMoney/Page_Farad Connect/input_PIN digit 1'), 10)
+WebUI.setText(findTestObject('DepositMoney/Page_Farad Connect/input_PIN digit 1'), GlobalVariable.G_TRANSACTION_PIN)
+
+/* PINEntry pinEntry = new PINEntry()
 pinEntry.enterDigitsOneByOne(GlobalVariable.G_TRANSACTION_PIN, 'DepositMoney/Page_Farad Connect/input_PIN digit ')
+*/
 
 WebUI.click(findTestObject('DepositMoney/Page_Farad Connect/button_Confirm Transaction'))
 

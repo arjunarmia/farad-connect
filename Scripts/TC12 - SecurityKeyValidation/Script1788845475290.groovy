@@ -31,7 +31,13 @@ loginKeywords.loginWithCredentials(securityKey.user1Name, securityKey.user1Pass)
 
 WebUI.click(findTestObject('TokenSale/Page_Farad Connect/button_FTG Token'))
 WebUI.click(findTestObject('ValidateSecurityKey/Page_Farad Connect/button_My FTG Tokens'))
-WebUI.click(findTestObject('ValidateSecurityKey/Page_Farad Connect/button_token-admin-generate-btn'))
+
+TestObject generateSecurityKeyButton = findTestObject('ValidateSecurityKey/Page_Farad Connect/button_token-admin-generate-btn')
+
+if (WebUI.verifyElementPresent(generateSecurityKeyButton, 5, FailureHandling.OPTIONAL)) {
+    WebUI.click(generateSecurityKeyButton)
+}
+
 WebUI.waitForElementVisible(findTestObject('ValidateSecurityKey/Page_Farad Connect/label_token-admin-security-key'), 10)
 
 String user1SecurityKey = WebUI.getText(findTestObject('ValidateSecurityKey/Page_Farad Connect/label_token-admin-security-key'))

@@ -22,7 +22,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys
 
 def sendMoney = [
-    amount       : '0.1',
+    amount       : '0.5',
     receiverName : GlobalVariable.G_RECEIVER_NAME,
     message      : 'This is a test message'
 ]
@@ -32,7 +32,7 @@ loginKeywords.login()
 
 WebUI.click(findTestObject('DepositMoney/Page_Farad Connect/a_FTG Wallet'))
 
-WebUI.click(findTestObject('SendMoney/Page_Farad Connect/div_Send Money'))
+WebUI.click(findTestObject('SendMoney/Page_Farad Connect/button_Send Money'))
 
 WebUI.setText(findTestObject('SendMoney/Page_Farad Connect/input_0.00'), sendMoney.amount)
 WebUI.setText(findTestObject('SendMoney/Page_Farad Connect/input_Search by name, email, or ID'), sendMoney.receiverName)
@@ -42,8 +42,12 @@ WebUI.setText(findTestObject('SendMoney/Page_Farad Connect/textarea_Add a note f
 
 WebUI.click(findTestObject('SendMoney/Page_Farad Connect/button_mainBtn'))
 
-PINEntry pinEntry = new PINEntry()
+WebUI.waitForElementClickable(findTestObject('DepositMoney/Page_Farad Connect/input_PIN digit 1'), 10)
+WebUI.setText(findTestObject('DepositMoney/Page_Farad Connect/input_PIN digit 1'), GlobalVariable.G_TRANSACTION_PIN)
+
+/* PINEntry pinEntry = new PINEntry()
 pinEntry.enterDigitsOneByOne(GlobalVariable.G_TRANSACTION_PIN, 'DepositMoney/Page_Farad Connect/input_PIN digit ')
+*/
 
 WebUI.click(findTestObject('SendMoney/Page_Farad Connect/button_Confirm Transaction'))
 

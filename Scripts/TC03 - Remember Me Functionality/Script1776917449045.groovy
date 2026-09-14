@@ -18,49 +18,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+WebUI.navigateToUrl(GlobalVariable.G_URL)
+WebUI.setText(findTestObject('Login/Page_Farad Connect/input_Username'), GlobalVariable.G_USERNAME)
+WebUI.setText(findTestObject('Login/Page_Farad Connect/input__'), GlobalVariable.G_PASSWORD)
+WebUI.click(findTestObject('RememberFunctionality/Page_Farad Connect/span_Remember Me'))
+WebUI.click(findTestObject('Login/Page_Farad Connect/button_btnLogin'))
 
-WebUI.openBrowser(GlobalVariable.G_URL)
+WebUI.verifyElementPresent(findTestObject('NavigationCheck/Page_Farad Connect/span_FTG Token'), 10)
 
-WebUI.setText(findTestObject('Object Repository/Login/input_login_userName'), GlobalVariable.G_USERNAME)
+WebUI.click(findTestObject('ValidateSecurityKey/Page_Farad Connect/button_user-menu-btn'))
+WebUI.click(findTestObject('ValidateSecurityKey/Page_Farad Connect/button_Logout'))
 
-WebUI.setText(findTestObject('Object Repository/Login/input_login_password'), GlobalVariable.G_PASSWORD)
+WebUI.verifyElementPresent(findTestObject('NavigationCheck/Page_Farad Connect/logout_elementCheck'), 10)
+WebUI.back()
 
-// Check if the checkbox is not already checked, then click it
-if (!(WebUI.verifyElementChecked(findTestObject('Object Repository/Login/checkbox_login_rememberMe'), 2, FailureHandling.OPTIONAL))) {
-    WebUI.click(findTestObject('Object Repository/Login/checkbox_login_rememberMe'))
-}
+String username = WebUI.getAttribute(findTestObject('Login/Page_Farad Connect/input_Username'), 'value')
+String password = WebUI.getAttribute(findTestObject('Login/Page_Farad Connect/input__'), 'value')
 
-// 3: Log In
-WebUI.click(findTestObject('Object Repository/Login/button_login_Login'))
+WebUI.verifyMatch(username, GlobalVariable.G_USERNAME, false)
+WebUI.verifyMatch(password, GlobalVariable.G_PASSWORD, false)
 
-// 4: Verify Login Success
-WebUI.verifyElementPresent(findTestObject('Object Repository/Login/element_dashboard_exist'), 10)
-
-WebUI.comment('Login successful with Remember Me checked.')
-
-// STEP 5: Close and Reopen Browser to test persistence
-// This simulates a user returning to the site later
 WebUI.closeBrowser()
-
-WebUI.delay(2)
-
-WebUI.openBrowser(GlobalVariable.G_URL)
-
-// STEP 6: Verification Logic
-// Depending on the site's implementation, 'Remember Me' usually does one of two things:
-// Option A: Automatically logs you back in (Session persistence)
-// Option B: Pre-fills the username field
-boolean isLoggedIn = WebUI.verifyElementPresent(findTestObject('Object Repository/Login/element_dashboard_exist'), 5, FailureHandling.OPTIONAL)
-
-if (isLoggedIn) {
-    WebUI.comment('SUCCESS: User was automatically logged in via cookies.') // Option B: Check if the username field is pre-filled
-} else {
-    String savedUser = WebUI.getAttribute(findTestObject('Object Repository/Login/input_login_userName'), 'value')
-
-    if (savedUser == GlobalVariable.G_USERNAME) {
-        WebUI.comment('SUCCESS: Username field was pre-filled.')
-    } else {
-        KeywordUtil.markFailed('FAIL: Remember Me functionality did not persist session or pre-fill username.')
-    }
-}
-

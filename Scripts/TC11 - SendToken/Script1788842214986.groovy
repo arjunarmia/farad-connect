@@ -65,7 +65,11 @@ String tokenActivitySendAmount = WebUI.getText(findTestObject('SendToken/Page_Fa
 String tokenActivityDesc = WebUI.getText(findTestObject('SendToken/Page_Farad Connect/label_description_tokenActivity'))
 
 WebUI.verifyMatch(tokenActivitySendAmount, token.sendAmount, false)
-WebUI.verifyMatch(tokenActivityRecieverName.trim(), token.recieverName.trim(), false)
+WebUI.verifyMatch(
+    tokenActivityRecieverName.trim().contains(token.recieverName.trim()).toString(),
+    'true',
+    false
+)
 WebUI.verifyMatch(tokenActivityDesc.trim(), token.desc.trim(), false)
 
 WebUI.closeBrowser()

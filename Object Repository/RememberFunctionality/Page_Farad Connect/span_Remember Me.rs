@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Remember Me</name>
+   <tag></tag>
+   <elementGuidId>52c7dc07-4e9e-4664-a240-91f44c6e8c54</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' login-form__checkbox-box ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.login-form__checkbox-box</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>89bb3a61-9581-4090-a2d6-48b7ab23928d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>login-form__checkbox-box</value>
+      <webElementGuid>41942ff8-b212-4551-a5a0-4a476f71d700</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>6f46d6dd-5ac9-47e8-8e6d-a45136c94111</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-5a560e134e67dbefa7cd1ab7e77babfa</value>
+      <webElementGuid>dc757c41-cb89-4751-af98-f78cdd07120a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' login-form__checkbox-box ')]</value>
+      <webElementGuid>7e20488a-1b30-408e-848d-d52a3a0a3b66</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' login-form__checkbox-box ')]</value>
+      <webElementGuid>5ba5092c-793d-4051-9de0-232804f43370</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

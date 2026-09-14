@@ -17,54 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import farad.LoginKeywords
 import farad.PINEntry
+import farad.WithdrawMethod
 import farad.YopmailKeywords
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-String withdrawMoney = '5000'
-
-def withdrawACH = [
-	withdrawMoney : '5000',
-	username : 'KatalonTestUser',
-	phoneNum : '9999999999',
-	accountNum : '13621011904782',
-	routingNum : '215125125',
-	bankName : "Bank of Kutch"
-	]
 
 LoginKeywords loginKeywords = new LoginKeywords()
 loginKeywords.login()
 
 WebUI.click(findTestObject('DepositMoney/Page_Farad Connect/a_FTG Wallet'))
-
 WebUI.click(findTestObject('WithdrawMoney/Page_Farad Connect/button_withdrawFund'))
 
-WebUI.setText(findTestObject('WithdrawMoney/Page_Farad Connect/input_0.00'), withdrawACH.withdrawMoney)
-
-WebUI.click(findTestObject('WithdrawMoney/Page_Farad Connect/label_ACH Transfer  2-3 business days  account'))
-
-WebUI.setText(findTestObject('WithdrawMoney/Page_Farad Connect/input_Name on the account (spelling as it appear'), withdrawACH.username)
-
-WebUI.setText(findTestObject('WithdrawMoney/Page_Farad Connect/input_Phone number (your phone number as it is r'), withdrawACH.phoneNum)
-
-WebUI.setText(findTestObject('WithdrawMoney/Page_Farad Connect/input_Account Number _'), withdrawACH.accountNum)
-
-WebUI.setText(findTestObject('WithdrawMoney/Page_Farad Connect/input_Re-enter Account Number _'), withdrawACH.accountNum)
-
-WebUI.setText(findTestObject('WithdrawMoney/Page_Farad Connect/input_ACH Routing Number _'), withdrawACH.routingNum)
-
-WebUI.setText(findTestObject('WithdrawMoney/Page_Farad Connect/input_Re-enter routing number'), withdrawACH.routingNum)
-
-WebUI.selectOptionByValue(findTestObject('WithdrawMoney/Page_Farad Connect/select_Account Type _'), 'checking', false)
-
-WebUI.setText(findTestObject('WithdrawMoney/Page_Farad Connect/input_Bank Name _'), withdrawACH.bankName)
-
-WebUI.setText(findTestObject('WithdrawMoney/Page_Farad Connect/input_Bank Address _'), withdrawACH.bankName)
+WithdrawMethod withdrawMethod = new WithdrawMethod()
+//withdrawMethod.withdrawACH()
+withdrawMethod.withdrawWise()
 
 WebUI.click(findTestObject('WithdrawMoney/Page_Farad Connect/button_Continue to review your withdrawal'))
 
+WebUI.waitForElementClickable(findTestObject('DepositMoney/Page_Farad Connect/input_PIN digit 1'), 10)
+WebUI.setText(findTestObject('DepositMoney/Page_Farad Connect/input_PIN digit 1'), GlobalVariable.G_TRANSACTION_PIN)
+
+/* 
 PINEntry pinEntry = new PINEntry()
 pinEntry.enterDigitsOneByOne(GlobalVariable.G_TRANSACTION_PIN, 'DepositMoney/Page_Farad Connect/input_PIN digit ')
+*/
 
 WebUI.click(findTestObject('WithdrawMoney/Page_Farad Connect/button_Confirm Transaction'))
 
