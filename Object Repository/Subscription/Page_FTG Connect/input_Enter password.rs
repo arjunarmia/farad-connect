@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Enter password</name>
+   <tag></tag>
+   <elementGuidId>a3b420dc-e423-4f95-a62c-d74b94610d49</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#deactivate-account-form #password</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'deactivate-account-form']//*[@id = 'password']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>46674aea-899c-49d7-9ab1-4efb4d2f7c7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pin-modal__input</value>
+      <webElementGuid>a31b99c1-4c4d-4c81-ace9-4fffe0598742</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>a27f706d-9927-4081-aba1-428f454e948a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>5a0223ca-9737-4000-8997-aa1070edab6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>2c78a739-3373-4a90-89a3-75ff325a7415</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter password</value>
+      <webElementGuid>1c878ac3-3489-4155-ab6e-7c7bc745cd64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a84aeb971506c0103415fec0db160782</value>
+      <webElementGuid>27fc333e-025a-4627-9c69-e870ece6d934</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'deactivate-account-form']//*[@id = 'password']</value>
+      <webElementGuid>5908007a-129c-4359-82ee-bcbcb6f8f0ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'deactivate-account-form']//*[@id = 'password']</value>
+      <webElementGuid>f16bc4db-7831-405f-a144-19aa7d619ad5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'password' and @id = 'password' and @name = 'password' and @placeholder = 'Enter password']</value>
+      <webElementGuid>c325165f-e35b-49ed-9990-6609104f77b6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

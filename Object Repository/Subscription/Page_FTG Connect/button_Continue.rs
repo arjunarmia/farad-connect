@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Continue</name>
+   <tag></tag>
+   <elementGuidId>059dc720-3e62-41be-8afe-a0a809dbac77</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#activate-account-form .pin-modal__primary-btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'activate-account-form']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' pin-modal__primary-btn ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a78b7fb4-00d3-4cf6-9a7e-ed690265bae2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>4addbd55-d32a-460c-8ffa-dfad399cb571</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pin-modal__primary-btn</value>
+      <webElementGuid>c418e6c4-9cc9-41d0-b98f-b7974d242db3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+        Continue
+      </value>
+      <webElementGuid>76508d04-2c5c-44d7-ae9c-e46cb3d47fe0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9ec92368066fb25e9f385295f23b8f6e</value>
+      <webElementGuid>e2da383d-857a-4c7d-9635-3b1639ccc81e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'activate-account-form']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' pin-modal__primary-btn ')]</value>
+      <webElementGuid>9efa0a75-63e0-4b54-8f05-8c8dcafa029b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'activate-account-form']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' pin-modal__primary-btn ')]</value>
+      <webElementGuid>fe6e27ed-87ac-49c2-9229-782472007db0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = '
+        Continue
+      ' or . = '
+        Continue
+      ')]</value>
+      <webElementGuid>5f7553f2-1561-423d-af3c-4de695355ebd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
