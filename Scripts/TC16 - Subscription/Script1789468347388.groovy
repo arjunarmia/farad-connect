@@ -71,7 +71,7 @@ String premiumLabel = WebUI.getText(findTestObject('Subscription/Page_FTG Connec
 WebUI.verifyMatch(premiumLabel, "Premium", false)
 
 
-// Go to Settings and Reactivate Account
+/* OBSOLETE - Go to Settings and Reactivate Account
 WebUI.click(findTestObject('NavigationCheck/Page_Farad Connect/button_user-menu-btn'))
 WebUI.click(findTestObject('NavigationCheck/Page_Farad Connect/a_My Profile'))
 WebUI.click(findTestObject('Subscription/Page_FTG Connect/a_Account Settings'))
@@ -79,6 +79,7 @@ WebUI.click(findTestObject('Subscription/Page_FTG Connect/button_tab-account'))
 
 WebUI.click(findTestObject('Subscription/Page_FTG Connect/button_Deactivate account_1'))
 WebUI.click(findTestObject('Subscription/Page_FTG Connect/button_Continue'))
+*/
 
 WebUI.closeBrowser()
 

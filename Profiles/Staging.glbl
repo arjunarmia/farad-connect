@@ -69,14 +69,21 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Random Address'</initValue>
+      <initValue>'The Axiom'</initValue>
       <name>G_ADDRESS</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Misissippi'</initValue>
+      <initValue>'Radiator Springs'</initValue>
+      <name>G_ADDRESS_2</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Portorosso'</initValue>
       <name>G_CITY</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

@@ -21,14 +21,15 @@ import org.openqa.selenium.Keys as Keys
 
 
 def userDetails = [
-	firstName : 'KTester',
-	lastName  : 'Tom',
-	fullName  : 'KTester Tom',
-	gender    : 'F',
+	firstName : 'Thomas',
+	lastName  : 'Sawyer',
+	fullName  : 'Thomas Sawyer',
+	gender    : 'M',
 	website   : 'https://www.youtube.com',
-	address   : GlobalVariable.G_ADDRESS,
+	address_1 : GlobalVariable.G_ADDRESS,
+	address_2 : GlobalVariable.G_ADDRESS_2,
 	country   : 'India',
-	state     : 'Kerala',
+	state     : 'Santa Fe de la Laguna',
 	city      : GlobalVariable.G_CITY ,
 	zipCode   : GlobalVariable.G_POSTALCODE
 ]
@@ -49,8 +50,8 @@ WebUI.click(findTestObject('ProfileCompletion/Page_Farad Connect/span_April 3, 2
 WebUI.selectOptionByValue(findTestObject('ProfileCompletion/Page_Farad Connect/select_Gender'), userDetails.gender, false)
 WebUI.setText(findTestObject('ProfileCompletion/Page_Farad Connect/input_https_www.example.com'), userDetails.website)
 
-WebUI.setText(findTestObject('ProfileCompletion/Page_Farad Connect/input_Address Line 1 _'), userDetails.address)
-WebUI.setText(findTestObject('ProfileCompletion/Page_Farad Connect/input_Address Line 2'), userDetails.address)
+WebUI.setText(findTestObject('ProfileCompletion/Page_Farad Connect/input_Address Line 1 _'), userDetails.address_1)
+WebUI.setText(findTestObject('ProfileCompletion/Page_Farad Connect/input_Address Line 2'), userDetails.address_2)
 WebUI.selectOptionByValue(findTestObject('ProfileCompletion/Page_Farad Connect/select_Country _'), userDetails.country, false)
 WebUI.setText(findTestObject('ProfileCompletion/Page_Farad Connect/input_Zip Code _'), userDetails.zipCode)
 
@@ -62,6 +63,7 @@ WebUI.click(findTestObject('ProfileCompletion/Page_Farad Connect/button_Save Cha
 
 Thread.sleep(3000)
 WebUI.back()
+WebUI.refresh()
 
 // Verify Phone Number
 TestObject phoneObject = findTestObject('ProfileCompletion/Page_Farad Connect/profile_phoneNumber_label')
@@ -114,7 +116,7 @@ TestObject addressObj = findTestObject('ProfileCompletion/Page_Farad Connect/pro
 WebUI.waitForElementVisible(addressObj, 10)
 
 String address = WebUI.getText(addressObj).trim()
-String fullUserAddress = userDetails.address +" "+ userDetails.address
+String fullUserAddress = userDetails.address_1 +" "+ userDetails.address_2
 
 WebUI.verifyEqual(address, fullUserAddress)
 
